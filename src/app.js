@@ -98,7 +98,18 @@ function formatDate() {
     tempFour.innerHTML = formatDay(event.data.daily[4].time);
     let iconFour = document.querySelector("#icon-4");
     iconFour.setAttribute("src", `${event.data.daily[4].condition.icon_url}`);
+
+    let forecastElementFive = document.querySelector("#day-5");
+    let dateFive = document.querySelector("#temp-5");
+    dateFive.innerHTML = `${Math.round(event.data.daily[5].temperature.day)}°C`;
+    let tempFive = document.querySelector("#day-5");
+    tempFive.innerHTML = formatDay(event.data.daily[5].time);
+    let iconFive = document.querySelector("#icon-5");
+    iconFive.setAttribute("src", `${event.data.daily[5].condition.icon_url}`);
   }
+
+   
+  
   
   launchPage();
   
