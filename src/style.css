@@ -1,10 +1,11 @@
 .weatherapp {
-    border: 1px solid;
+    border: 10px solid;
     padding: 20px;
     margin: 20px auto;
     max-width: 700px;
-    border-radius: 10px;
-    border-color: grey;
+    border-radius: 30px;
+    border-color: rgb(213, 236, 41);
+    background-color: rgb(177, 141, 229);
   }
   
   .search-form .form-control .submit-button {
@@ -26,7 +27,7 @@
   }
   
   img {
-    padding: 5px;
+    padding: 7px;
   }
   
   p {
@@ -58,14 +59,16 @@
   }
   
   .current-city,
-  #wind-speed,
   #celsius,
   #farenheit,
-  #humidity,
   #weather-description {
     display: inline;
   }
   
+  #humidity,
+  #wind-speed{
+    display: inline-block;
+  }
   .all-weather {
     font-size: 15px;
   }
