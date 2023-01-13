@@ -31,7 +31,7 @@ function formatDate() {
   
   function launchPage() {
     let cityInput = document.querySelector("#city-temp");
-    let cityLive = "London";
+    let cityLive = "rome";
     let apiKey = "edf069311acf2bebo10f4bbbc53249t3";
     let apiURL = `https://api.shecodes.io/weather/v1/forecast?query=${cityLive}&key=${apiKey}&units=metric`;
     axios.get(apiURL).then(showTemperature);

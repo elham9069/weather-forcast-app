@@ -1,5 +1,5 @@
 .weatherapp {
-    border: 10px solid;
+    border: 15px double;
     padding: 20px;
     margin: 20px auto;
     max-width: 700px;
@@ -9,17 +9,26 @@
   }
   
   .search-form .form-control .submit-button {
-    padding: 10px;
+    padding: 115px;
     margin: 10px;
-    height: 20px;
+    height: 35px;
+    background-color: antiquewhite;
+
   }
   
   .form-control {
-    font-family: "Roboto", sans-serif;
+    font-family: fantasy;
+    background-color: rgb(229, 193, 220);
   }
   
   .submit-button {
-    font-family: "Roboto", sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    height: 45px;
+    text-align: center;
+    padding-top: 0;
+    padding-bottom: 0%;
+    background-color: rgb(208, 88, 224);
   }
   
   .todays-weather {
@@ -33,17 +42,18 @@
   p {
     padding-top: 10px;
     padding-left: 10px;
-    font-family: "Roboto", sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 300;
   }
   h1 {
-    font-size: 24px;
+    font-size: 40px;
     padding-left: 10px;
-    font-family: "Roboto", sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
   }
   h2 {
     font-size: 20px;
     padding-left: 10px;
-    font-family: "Roboto", sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
   }
   
   h3 {
@@ -55,20 +65,32 @@
   }
   
   .row {
-    font-family: "Roboto", sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    font-style: italic;
   }
   
   .current-city,
   #celsius,
   #farenheit,
-  #weather-description {
+  #weather-description,
+  #humidity,
+  #wind-speed {
     display: inline;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 12px;
+
   }
   
-  #humidity,
-  #wind-speed{
-    display: inline-block;
-  }
+
+  
+
   .all-weather {
     font-size: 15px;
+    margin-left: 50px;
+  }
+
+  .sm{
+    font-size: 15px;
+    font-style: italic;
   }
